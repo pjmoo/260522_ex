@@ -21,7 +21,8 @@ function f3(a = 100) {
 f3();
 f3(1, 2, 3, 4, 5);
 
-function f4(a, ...b) { // rest, 나머지 연산자
+function f4(a, ...b) {
+  // rest, 나머지 연산자
   console.log("a", a);
   console.log("b", b);
 }
