@@ -81,8 +81,8 @@ const matrix = [
 ];
 for (let i = 0; i < matrix.length; i++) {
   console.log(matrix[i]);
-  for (let j = 0; j < matrix[0].length; j++) {
+  for (let j = 0; j < matrix[i].length; j++) {
     console.log(matrix[i][j]);
   }
 }
-// 그리드 형태로 되어 있는 탐색 문제... 
+// 그리드 형태로 되어 있는 탐색 문제...

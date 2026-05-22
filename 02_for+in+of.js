@@ -33,6 +33,6 @@ for (const v of arr) {
 // for (const v of obj) { // TypeError: obj is not iterable
 // for (const v of Object.values(obj)) {
 // for (const v of Object.keys(obj)) {
-for (const v of Array.from(obj)) {
+for (const v of Object.values(obj)) {
   console.log(v);
 }

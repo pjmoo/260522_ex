@@ -32,7 +32,7 @@ f4(1, 2);
 f4(1, 2, 3, 4, 5, 6, 7);
 // Console.log(...data: any[]): void
 
-function f5(props) {
+function f5(props = {}) {
   // DTO, VO -> TS : Interface
   // {a: ?, b: ?, c: ?}
   if (props.a) {
