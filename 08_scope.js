@@ -1,5 +1,3 @@
-
-
 console.log(v1);
 let v3 = "나는 밖 let이야";
 console.log(v3);
@@ -11,3 +9,7 @@ console.log(v3);
 }
 console.log(v1);
 console.log(v3);
+
+for (let i = 0; i < 5; i++) {
+  console.log(i);
+}
